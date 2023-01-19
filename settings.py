@@ -1,0 +1,18 @@
+import os
+
+PATH = os.path.dirname(os.path.realpath(__file__))
+
+WIDTH = 1500
+HEIGHT = 750
+
+CASE_SIZE = 150
+CASE_SPACE_AROUND = 7
+
+GRID_WEIGHT = 10
+
+TEXT_UNDERLINE_MARGE = 5
+TEXT_UNDERLINE_WEIGHT = 10
+
+SCORE_PATH = f'{PATH}/score.txt'
+
+BACKGROUND = (255, 255, 255)
